@@ -23,7 +23,7 @@ s_initISET;
 %  We have several rgb files (tif and jpg) stored in isetBio/isettools/data/images/rgb 
 imgFileName = 'macbeth.tif'; 
 
-% We have the display calibration data stored in isetBio/isettools/data/displays
+% We have other display calibration data stored in isetBio/isettools/data/displays
 % Here are the calibration files for the Sony BVM-F250 and PVM-2541 from
 % the measurements described in Cooper, Jiang, Vildavski, Farrell, &
 % Norcia, JOV, 2013
