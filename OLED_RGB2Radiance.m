@@ -27,8 +27,8 @@ imgFileName = 'macbeth.tif';
 % Here are the calibration files for the Sony BVM-F250 and PVM-2541 from
 % the measurements described in Cooper, Jiang, Vildavski, Farrell, &
 % Norcia, JOV, 2013
-dispBVMFile = 'OLED-SonyBVM.mat';
-dispPVMFile = 'OLED-SonyPVM.mat';
+dispBVMFile = 'OLED-SonyBVM-F250.mat';
+dispPVMFile = 'OLED-SonyPVM-2541.mat';
 
 %  Check existence
 if ~exist(imgFileName,'file'), error('Image file not found'); end
@@ -79,11 +79,11 @@ d = displayCreate('LCD-Dell');
 displayPlot(d,'gamut');
 title('Dell LCD')
 
-d = displayCreate('OLED-SonyBVM');
+d = displayCreate('OLED-SonyBVM-F250');
 displayPlot(d,'gamut');
 title('Sony OLED (BVM)')
 
-d = displayCreate('OLED-SonyPVM');
+d = displayCreate('OLED-SonyPVM-2541');
 displayPlot(d,'gamut');
 title('Sony OLED (PVM)')
 
