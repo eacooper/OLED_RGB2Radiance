@@ -36,7 +36,6 @@ if ~exist(dispBVMFile,'file'), error('BVM Display file not found.'); end
 if ~exist(dispPVMFile,'file'), error('PVM Display file not found.'); end
 
 %%  Create scene from file
-% Scene on BVM.
 % Scenes are stored in isetBio as structures that include
 %       a matrix of scene data represented as photons with 32 bits of precision by default
 %       a vector with the wavelengths that are used in the spectral representation (400:10:700 by default, but can be changed) 
