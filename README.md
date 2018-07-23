@@ -11,6 +11,9 @@ Uses functions for display simulation within the ISETBIO toolbox.
 
 This script is verified to work with ISETBIO release v0.1-alpha, which can be downloaded from https://github.com/isetbio/isetbio/releases/tag/v0.1-alpha.
 
+..which I think is now actually here:
+https://github.com/isetbio/isetbio_v0.1/releases
+
 The latest version of ISETBIO, which may or may not work with this script, can be found at https://github.com/isetbio
 
 ISETBIO must be placed in the MATLAB path for the tutorial to work.
